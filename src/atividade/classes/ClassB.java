@@ -4,8 +4,8 @@ public class ClassB {
 
 	protected String[] nomes;
 	
-	public void useNomes(ClassA obj) {
+	public void useNomes(ClassAAdapter obj) {
 		//Retorna ArrayList, quando esperado um vetor[]
-		this.nome = obj.getNomes();
+		this.nomes = obj.getNomesVetor();
 	}
 }
